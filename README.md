@@ -1,5 +1,6 @@
 # Global_EV_Stations_Analysis
 Analyzing EV charging infrastructure using SQL to optimize station placement and improve efficiency.
+[Global_EV_Stations_Analysis]
 
 ## Overview
 The Global EV Stations Analysis project aims to provide insights into the availability and usage of EV charging stations. By analyzing data such as charging capacity, usage statistics, and station operators, we can better understand the current state of EV infrastructure and identify opportunities for improvement.
