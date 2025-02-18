@@ -1,24 +1,3 @@
-CREATE TABLE ev_charging_stations (
-    station_id VARCHAR(15) PRIMARY KEY,
-	latitude DECIMAL(10,6),
-	longitude DECIMAL (10,6),
-	address VARCHAR (100),
-    charger_type VARCHAR(50),
-    cost_USD_kWh DECIMAL(4,2),
-    availability VARCHAR(50),
-    distance_to_city_km DECIMAL(4,2),
-    usage_stats_avg_users_per_day INT,
-    station_operator VARCHAR(25),
-    charging_capacity_kW INT,
-	connector_types VARCHAR(50),
-    installation_year INT,
-    renewable_energy_source VARCHAR(10),
-	reviews_or_ratings DECIMAL(2,1),
-	parking_spots INT,
-	maintenance_frequency VARCHAR(20)
-);
-
-SELECT * FROM ev_charging_stations;
 
 --1. Identify missing values in critical fields
 
